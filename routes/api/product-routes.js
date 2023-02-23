@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
   try {
     const ProductData = await Product.findAll({
       include: [{ model: Category }, { model: Tag, through: ProductTag }],
-      // TODO: Add a sequelize literal to get a count of short books
+   
     });
     res.status(200).json(ProductData);
   } catch (err) {
@@ -25,7 +25,7 @@ router.get('/:id', async (req, res) => {
   try {
     const ProductData = await Product.findByPk(req.params.id, {
       include: [{ model: Category }, { model: Tag, through: ProductTag }],
-      // TODO: Add a sequelize literal to get a count of short books
+
     });
 
     if (!ProductData) {
