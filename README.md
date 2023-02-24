@@ -38,7 +38,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Link to walkthrough video
 
-
+https://drive.google.com/file/d/1u9Uvtiq8QjL8jC3igQJuWnoT2ezK8jtS/view
 
 
 
