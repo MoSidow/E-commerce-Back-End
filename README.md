@@ -2,7 +2,7 @@
 
 ## Description
 
-In this assignment I have created an employee tracker so the user is able to add a department, role and an employee. The user also has the option to update the role of an employee.
+In this assignment I have build the backend of an E-Commerse so the user is able to see, add, update and delete a Category, Tag or Product.
 
 ## Usage
 
